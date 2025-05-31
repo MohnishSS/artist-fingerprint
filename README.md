@@ -6,12 +6,13 @@
 
 ## Features
 
--  etrieves top songs using the **Genius** and **Spotify** APIs
+- Retrieves top songs using the **Genius** and **Spotify** APIs
 - Extracts lyrics via **web scraping** and filters based on primary artist
 - Computes stylistic **metrics**: 
   - Lexical diversity
   - Average sentiment
   - POS & verb tense distributions
+  - and more
 - Identifies top **lyrical themes** using clustering and OpenAI-powered naming
 - Generates a **natural-language summary** of the artist’s style
 - Visualizes results with pie charts, word clouds, and clean text summaries
@@ -21,10 +22,10 @@
 ## Tools & Technologies
 
 - **Python** · `requests` · `BeautifulSoup`
-- **NLP**: `spaCy`, `NLTK`, `TextBlob`
-- **Data Viz**: `matplotlib`, `seaborn`, `wordcloud`
+- **NLP**: `spaCy`
+- **Data Viz**: `matplotlib`, `wordcloud`
 - **APIs**: Genius API, Spotify API, OpenAI GPT
-- **Other**: `scikit-learn`, `Jupyter`, `Counter`, `.env` config
+- **Other**: `scikit-learn`, `Jupyter`, `Counter`
 
 ---
 
